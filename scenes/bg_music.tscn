@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpf0svns7ntel"]
+
+[ext_resource type="AudioStream" uid="uid://0gp0n6wptxfy" path="res://assets/audio/music.ogg" id="1_638hq"]
+[ext_resource type="Script" path="res://scripts/bg_music.cs" id="2_kudei"]
+
+[node name="BgMusic" type="AudioStreamPlayer"]
+stream = ExtResource("1_638hq")
+autoplay = true
+script = ExtResource("2_kudei")
